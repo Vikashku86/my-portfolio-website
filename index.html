@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vikash | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+
+  <!-- Navbar -->
+  <header class="header">
+    <div class="container nav">
+      <a href="#home" class="logo" aria-label="Go to home">Vikash Kumar<span>.</span></a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        ☰
+      </button>
+
+      <nav class="nav-links" id="navLinks" aria-label="Primary">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#react-projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="section hero">
+    <div class="container hero-grid">
+      <div>
+        <p class="tag">Frontend Developer</p>
+        <h1>Hi, I'm <span class="accent">Vikash Kumar</span></h1>
+        <p class="subtitle">
+          I build clean, responsive, and fast websites using MERN.
+        </p>
+
+        <div class="btn-row">
+          <a class="btn primary" href="#react-projects">View Projects</a>
+          <a class="btn" href="#contact">Contact Me</a>
+        </div>
+
+        <div class="meta">
+          <div class="meta-card">
+            <p class="meta-title">Experience</p>
+            <p class="meta-value">Fresher</p>
+          </div>
+          <div class="meta-card">
+            <p class="meta-title">Tech</p>
+            <p class="meta-value">HTML • CSS • JS • React</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="hero-card" aria-label="Availability card">
+        <div class="avatar" aria-hidden="true">
+          <span>V</span>
+        </div>
+        <div class="hero-card-body">
+          <h3>Available for work</h3>
+          <p>Let’s build something awesome together.</p>
+          <a class="btn small" href="#contact">Hire Me</a>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About</h2>
+      <p class="section-desc">
+        I am currently pursuing a Bachelor of Computer Applications (BCA) and have a strong foundation in computer applications with a growing passion for software development.
+      </p>
+
+      <div class="about-grid">
+        <div class="card">
+          <h3>Skills</h3>
+          <ul class="list">
+            <li>HTML5 (Semantic Markup, Accessibility)</li>
+            <li>CSS3 (Flexbox, Grid, Responsive Design)</li>
+            <li>JavaScript (ES6+, DOM Manipulation)</li>
+            <li>React.js (Components, Hooks, State Management)</li>
+            <li>Redux Toolkit (Basic)</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>What I do</h3>
+          <ul class="list">
+            <li>Web Development</li>
+            <li>Frontend Projects</li>
+            <li>React & JavaScript Apps</li>
+            <li>Responsive UI Design</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Tools</h3>
+          <ul class="list">
+            <li>VS Code</li>
+            <li>Git / GitHub</li>
+            <li>Chrome DevTools</li>
+            <li>Netlify / GitHub Pages</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- React Projects -->
+  <section id="react-projects" class="section">
+    <div class="container">
+      <h2 class="section-title">React Projects</h2>
+
+      <div class="projects-grid">
+        <article class="card project">
+          <div class="project-top">
+            <h3>E-commerce</h3>
+            <span class="chip">React</span>
+          </div>
+          <p>Modern responsive E-commerce with clean layout.</p>
+          <div class="project-actions">
+            <a class="btn small" target="_blank" rel="noopener noreferrer" href="https://ecommerce-rho-three-fjyto7xggl.vercel.app/">Live</a>
+            <a class="btn small ghost" target="_blank" rel="noopener noreferrer" href="https://github.com/Vikashku86/Ecommerce">Code</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project-top">
+            <h3>Todo App</h3>
+            <span class="chip">React</span>
+          </div>
+          <p>Add/remove tasks, local storage support (extendable).</p>
+          <div class="project-actions">
+            <a class="btn small" target="_blank" rel="noopener noreferrer" href="https://use-reducer-todo-kappa.vercel.app/">Live</a>
+            <a class="btn small ghost" target="_blank" rel="noopener noreferrer" href="https://github.com/Vikashku86/useReducer-Todo">Code</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project-top">
+            <h3>Routing</h3>
+            <span class="chip">React</span>
+          </div>
+          <p>Multi-page React app with navigation using React Router DOM.</p>
+          <div class="project-actions">
+            <a class="btn small" target="_blank" rel="noopener noreferrer" href="https://dynamice-routing.vercel.app/">Live</a>
+            <a class="btn small ghost" target="_blank" rel="noopener noreferrer" href="https://github.com/Vikashku86/Dynamice-routing">Code</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- JavaScript Projects -->
+  <section id="js-projects" class="section">
+    <div class="container">
+      <h2 class="section-title">JavaScript Projects</h2>
+
+      <div class="projects-grid">
+        <article class="card project">
+          <div class="project-top">
+            <h3>Weather App</h3>
+            <span class="chip">JavaScript</span>
+          </div>
+          <p>Modern responsive Weather App with clean UI and real-time data.</p>
+          <div class="project-actions">
+            <a class="btn small" target="_blank" rel="noopener noreferrer" href="https://weathet-api.vercel.app/">Live</a>
+            <a class="btn small ghost" target="_blank" rel="noopener noreferrer" href="https://github.com/Vikashku86/weathet-api">Code</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project-top">
+            <h3>Form Validation</h3>
+            <span class="chip">JavaScript</span>
+          </div>
+          <p>Validate inputs with error messages and proper email format check.</p>
+          <div class="project-actions">
+            <a class="btn small" target="_blank" rel="noopener noreferrer" href="https://form-validation-2-omega.vercel.app/">Live</a>
+            <a class="btn small ghost" target="_blank" rel="noopener noreferrer" href="https://github.com/Vikashku86/form-validation-2">Code</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project-top">
+            <h3>QR Generator</h3>
+            <span class="chip">JavaScript</span>
+          </div>
+          <p>Generate QR codes from text or URLs instantly.</p>
+          <div class="project-actions">
+            <a class="btn small" target="_blank" rel="noopener noreferrer" href="https://html-css-3rd.vercel.app/">Live</a>
+            <a class="btn small ghost" target="_blank" rel="noopener noreferrer" href="https://github.com/Vikashku86/qr-genrator">Code</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- HTML & CSS Projects -->
+  <section id="html-css-projects" class="section">
+    <div class="container">
+      <h2 class="section-title">HTML & CSS Projects</h2>
+
+      <div class="projects-grid">
+        <article class="card project">
+          <div class="project-top">
+            <h3>Watch Detail</h3>
+            <span class="chip">HTML & CSS</span>
+          </div>
+          <p>Modern Watch UI in pure HTML & CSS (Responsive + clean layout).</p>
+          <div class="project-actions">
+            <a class="btn small" target="_blank" rel="noopener noreferrer" href="https://html-css-1-phi.vercel.app/">Live</a>
+            <a class="btn small ghost" target="_blank" rel="noopener noreferrer" href="https://github.com/Vikashku86/html-css-1">Code</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project-top">
+            <h3>Startup Landing Page</h3>
+            <span class="chip">HTML & CSS</span>
+          </div>
+          <p>Responsive landing page with Hero, Features, About, Contact, Footer.</p>
+          <div class="project-actions">
+            <a class="btn small" target="_blank" rel="noopener noreferrer" href="https://html-css-2nd.vercel.app/">Live</a>
+            <a class="btn small ghost" target="_blank" rel="noopener noreferrer" href="https://github.com/Vikashku86/html-css-2nd">Code</a>
+          </div>
+        </article>
+
+        <article class="card project">
+          <div class="project-top">
+            <h3>Netflix UI</h3>
+            <span class="chip">HTML & CSS</span>
+          </div>
+          <p>Dark UI with hero banner, movie rows, and hover effects.</p>
+          <div class="project-actions">
+            <a class="btn small" target="_blank" rel="noopener noreferrer" href="https://html-css-2nd-1vie.vercel.app/">Live</a>
+            <a class="btn small ghost" target="_blank" rel="noopener noreferrer" href="https://github.com/Vikashku86/html-css-3rd">Code</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-desc">Send me a message, and I’ll get back to you.</p>
+
+      <div class="contact-grid">
+        <div class="card">
+          <h3>Info</h3>
+          <p><strong>Email:</strong> <a class="inline-link" href="mailto:vikashkumar9546432091@gmail.com">vikashkumar9546432091@gmail.com</a></p>
+          <p><strong>Location:</strong> India</p>
+
+          <p class="social-row">
+            <strong>Social:</strong>
+            <a aria-label="GitHub" target="_blank" rel="noopener noreferrer" href="https://github.com/Vikashku86"><i class="ri-github-fill"></i></a>
+            <a aria-label="LinkedIn" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/vikash-kumar-662689398/"><i class="ri-linkedin-box-fill"></i></a>
+            <a aria-label="X" target="_blank" rel="noopener noreferrer" href="https://x.com/Vikashkuma86"><i class="ri-twitter-x-fill"></i></a>
+          </p>
+
+          <p class="hint">Tip: You can also DM me on LinkedIn for faster response.</p>
+        </div>
+
+        <form class="card form" id="contactForm" novalidate>
+          <label>
+            Name
+            <input type="text" id="name" placeholder="Your name" autocomplete="name" />
+          </label>
+
+          <label>
+            Email
+            <input type="email" id="email" placeholder="yourmail@gmail.com" autocomplete="email" />
+          </label>
+
+          <label>
+            Message
+            <textarea id="message" rows="5" placeholder="Write your message..." ></textarea>
+          </label>
+
+          <button class="btn primary" type="submit">Send Message</button>
+          <p class="form-msg" id="formMsg" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-row">
+      <p>© <span id="year"></span> Vikash. All rights reserved.</p>
+      <a href="#home" class="top-link">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
